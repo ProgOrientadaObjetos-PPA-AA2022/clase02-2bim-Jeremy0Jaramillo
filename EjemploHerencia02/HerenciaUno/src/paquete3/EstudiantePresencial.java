@@ -3,9 +3,9 @@ package paquete3;
 
 public class EstudiantePresencial extends Estudiante{
     
-    int numeroCreditos;
-    double costoCredito;
-    double matriculaPresencial;
+    private int numeroCreditos;
+    private double costoCredito;
+    private double matriculaPresencial;
     
     public EstudiantePresencial(String n, String ap, String iden, int e){
         // public Estudiante(String n, String a, String iden, int ed){

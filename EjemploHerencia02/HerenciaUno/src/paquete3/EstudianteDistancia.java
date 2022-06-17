@@ -3,9 +3,9 @@ package paquete3;
 
 public class EstudianteDistancia extends Estudiante{
     
-    int numeroAsignaturas;
-    double costoAsignatura;
-    double matriculaDistancia;
+    private int numeroAsignaturas;
+    private double costoAsignatura;
+    private double matriculaDistancia;
     
     public EstudianteDistancia(String n, String ap, String iden, int e){
         super(n, ap, iden, e);
